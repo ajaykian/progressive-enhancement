@@ -1,7 +1,16 @@
+html{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 body{
     font-family: 'Tangerine', bold, serif;
-    color: black;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px black;
     max-width: 90%;
     margin: 130px;
     background-color:#d2dee4;
@@ -13,14 +22,14 @@ body{
 .liste{
     margin: 250px;
     font-size: 160%;
-    background-color:#f2f2f2;
+    background-color:rgba(202, 203, 200, 0.33);
     font-style: italic;
     border-left: 5px solid orange;
     
     
 }
 .citation{
-    background-color: #f2f2f2;
+    background-color: rgba(202, 203, 200, 0.33);
     padding-left: 30px;
     font-style: italic;
     border-left: 5px solid orange;
@@ -43,6 +52,8 @@ body{
 }
 .tableau1{
     background-color: white;
+    color: black;
+    text-shadow: none;
 }
 .tableau2{
     background-color: grey;
@@ -66,29 +77,75 @@ body{
 }
 .titre{
     background-color: darkgoldenrod;
+    font-family: open sans;
+    size: 85px;
 }
 
-.poucelevé{
+.pouceleve{
     position: absolute;
-    margin-left: -55px;
+    margin-left: -25px;
+    margin-top: 10px;
+    width: 2%;
    
 }
-.poucebaissé{
-    margin-left: -55px;
-    margin-top: 25px;
+.poucebaisse{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 20px;
+    width: 2%;
+    
 }
 .chat{
     position: absolute;
-    margin-left: -55px;
-    margin-top: 45px;
+    margin-left: -25px;
+    margin-top: 15px;
+    width: 2%;
 }
-#poucelevé{
-   
+.img{
+    border: 5px solid #7dc1c5;
+    padding: 20px;
+    margin-left: -15px;
 }
-#pouebaissé{
-    margin-top: -35px;
+.img1{
+    border: 5px solid #7dc1c5;
+    padding: 20px;
+    margin-left: 75px;
 }
-#chat{
+.notification{
     position: absolute;
-    margin-top: 55px;
+    background-color: #5486a0;
+    border: 2px solid #1b97da;
+    color: black;
+    font-family: open sans;
+    font-weight:bold;
+    font-size: 25px;
+    padding:.12rem 1rem;
+    width: 50%;
+    height: 15%;
+    text-align: center;
+    text-indent: 1em;
+    margin-top: -5.2em;
+    margin-left: -5.2em;
+    text-transform: uppercase;
+    vertical-align: middle;
 }
+.copyright{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.tooltip{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: wheat;
+    margin-top: 65px;
+    margin-left: 175px;
+    
+}
+.tooltip:hover{
+    color: blue;
+}
+
